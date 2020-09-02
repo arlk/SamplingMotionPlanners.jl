@@ -1,0 +1,16 @@
+name = "SamplingMotionPlanners"
+uuid = "f7288aa8-4283-440b-a0a9-b1302f20b687"
+authors = ["Arun Lakshmanan <lakshma2@illinois.edu>"]
+version = "0.1.0"
+
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+
+[compat]
+julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
